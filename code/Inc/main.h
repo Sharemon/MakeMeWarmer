@@ -82,12 +82,15 @@ void Error_Handler(void);
 #define WIFI_RST_GPIO_Port GPIOA
 #define WIFI_EN_Pin GPIO_PIN_1
 #define WIFI_EN_GPIO_Port GPIOA
+#define KEY_Pin GPIO_PIN_7
+#define KEY_GPIO_Port GPIOA
+#define KEY_EXTI_IRQn EXTI4_15_IRQn
 #define LED_Pin GPIO_PIN_1
 #define LED_GPIO_Port GPIOB
-#define IR_IN_Pin GPIO_PIN_9
-#define IR_IN_GPIO_Port GPIOA
-#define IR_OUT_Pin GPIO_PIN_10
+#define IR_OUT_Pin GPIO_PIN_9
 #define IR_OUT_GPIO_Port GPIOA
+#define IR_IN_Pin GPIO_PIN_10
+#define IR_IN_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
